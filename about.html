@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html lang="None" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisle8 - AI & Sustainability Solutions</title>
+    <meta name="description" content="Aisle8 provides cutting-edge AI solutions for sustainable business transformation.">
+    <meta name="keywords" content="AI, Sustainability, Retail Solutions, Supply Chain Optimization, Aisle8">
+    <meta name="author" content="Aisle8">
+    <meta name="description" content="Aisle8 makes sustainability profitable with AI-powered supply chain solutions.">
+    <meta name="keywords" content="Aisle8, AI, sustainability, supply chain, retail, optimization, profitability">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="Aisle8-ICON.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="Aisle8-ICON.svg">
+    
+    <script src="feather.min.js"></script>
+    <script type="module" src="spline-viewer.js"></script>
+    <script src="chart.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script src="charts.js"></script>
+    <style>
+        /* Critical CSS */
+        .team-image img, .advisor-image img {
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+        
+        /* Prevent CLS */
+        .team-card, .advisor-card {
+            min-height: 400px;
+            contain: content;
+        }
+        
+        /* Optimize mobile performance */
+        @media (max-width: 768px) {
+            * {
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            img {
+                content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.htm">
+                    <img src="Aisle8-ICON.svg" alt="Aisle8 Logo">
+                    <span class="brand-text">Aisle8</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.htm">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="technology.html">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="impact.html">Impact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="language-selector dropdown">
+                        <button class="btn btn-link dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="feather feather-globe"></i>
+                            
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="index.htm">🇬🇧 English / English</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇪🇸 Spanish / Español</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇫🇷 French / Français</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇩🇪 German / Deutsch</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇨🇳 Chinese / 中文</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+            
+        
+
+        
+<section class="section py-5">
+    <div class="container">
+        <!-- About Aisle8 -->
+        <div class="text-center mb-5 fade-in">
+            <h1 class="display-5">About Aisle8</h1>
+            <p class="lead mx-auto" style="max-width: 750px;">
+                We are pioneers in combining artificial intelligence with sustainability solutions to create a better future for businesses and the environment.
+            </p>
+        </div>
+
+        <!-- Mission, Vision, Values -->
+        <div class="row text-center g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <i data-feather="target" class="mb-3 icon-size text-primary"></i>
+                        <h5>Our Mission</h5>
+                        <p>To empower businesses with AI-driven solutions that promote sustainability and drive growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <i data-feather="eye" class="mb-3 icon-size text-primary"></i>
+                        <h5>Our Vision</h5>
+                        <p>A world where technology and sustainability work together to create a prosperous future.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <i data-feather="heart" class="mb-3 icon-size text-primary"></i>
+                        <h5>Our Values</h5>
+                        <p>Innovation, sustainability, and commitment to making a positive impact on the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section - Full width background -->
+<section class="team-section py-5">
+    <h2 class="text-center mb-5">Our Team</h2>
+    <div class="row g-4 justify-content-center">
+        <!-- Team Member: Andy Keh -->
+        <div class="col-lg-4 col-md-6">
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="andy.jpg" alt="Andy Keh" loading="lazy" width="300" height="300" onerror="this.onerror=null; this.src='/static/images/placeholder.jpg';">
+                </div>
+                <div class="team-content">
+                    <h3>Andy Keh</h3>
+                    <p class="position">Founder / Engineer</p>
+                    <ul class="team-details">
+                        <li>AI & Machine Learning Expert</li>
+                        <li>Full Stack Developer</li>
+                        <li>Supply Chain Optimization Specialist</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/andykeh" target="_blank" class="linkedin-link">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member: Borislav Dzodzo -->
+        <div class="col-lg-4 col-md-6">
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="boris.png" alt="Borislav Dzodzo">
+                </div>
+                <div class="team-content">
+                    <h3>Borislav Dzodzo</h3>
+                    <p class="position">Applied AI & Data Scientist</p>
+                    <ul class="team-details">
+                        <li>Data Science Expert</li>
+                        <li>AI Model Development</li>
+                        <li>Predictive Analytics Specialist</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/borislav-dzodzo" target="_blank" class="linkedin-link">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member: Brandon Lee -->
+        <div class="col-lg-4 col-md-6">
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="brad.jpg" alt="Brandon Lee">
+                </div>
+                <div class="team-content">
+                    <h3>Brandon Lee</h3>
+                    <p class="position">Engineer / Quant</p>
+                    <ul class="team-details">
+                        <li>Quantitative Analysis Expert</li>
+                        <li>Algorithm Development</li>
+                        <li>Financial Engineering Specialist</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/brandon-k-m-lee-588b4a170/" target="_blank" class="linkedin-link">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Advisors Section -->
+<section class="advisors-section">
+    <h2 class="text-center mb-5">Our Advisors</h2>
+    <div class="row g-4 justify-content-center">
+        <!-- Advisor: Tom Gerritsen
+        <div class="col-lg-4 col-md-6">
+            <div class="advisor-card h-100">
+                <div class="advisor-image">
+                    <img src="/static/images/tom.jpg" alt="Tom Gerritsen">
+                </div>
+                <div class="advisor-content">
+                    <h3>Tom Gerritsen</h3>
+                    <p class="position">AI & Analytics Advisor</p>
+                    <p class="company">Group Head of Data Analytics and AI at AIA</p>
+                    <a href="https://www.linkedin.com/in/tom-gerritsen" target="_blank" class="linkedin-link">
+                        <i data-feather="linkedin"></i> 
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Advisor: Eddie Wharton -->
+        <div class="col-lg-4 col-md-6">
+            <div class="advisor-card h-100">
+                <div class="advisor-image">
+                    <img src="eddie.jpg" alt="Eddie Wharton">
+                </div>
+                <div class="advisor-content">
+                    <h3>Eddie Wharton</h3>
+                    <p class="position">Data Science Advisor</p>
+                    <p class="company">Data Scientist for Warby Parker</p>
+                    <a href="https://www.linkedin.com/in/eddiewharton" target="_blank" class="linkedin-link">
+                        <i data-feather="linkedin"></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Advisor: Ben Berenson -->
+        <div class="col-lg-4 col-md-6">
+            <div class="advisor-card h-100">
+                <div class="advisor-image">
+                    <img src="ben.jpg" alt="Ben Berenson">
+                </div>
+                <div class="advisor-content">
+                    <h3>Ben Berenson</h3>
+                    <p class="position">Strategic Advisor</p>
+                    <p class="company">Managing Partner Asia SGE</p>
+                    <a href="https://www.linkedin.com/in/bberenson" target="_blank" class="linkedin-link">
+                        <i data-feather="linkedin"></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add mobile-specific styling -->
+<style>
+@media (max-width: 768px) {
+    .team-card, .advisor-card {
+        margin-bottom: 2rem;
+    }
+    
+    .team-image img, .advisor-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Aisle8</h5>
+                    <p>Transforming businesses through AI and sustainability solutions.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="solutions.html" class="text-light">Solutions</a></li>
+                        <li><a href="technology.html" class="text-light">Technology</a></li>
+                        <li><a href="about.html" class="text-light">About Us</a></li>
+                        <li><a href="contact.html" class="text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-4">
+                    <h5>Connect with Us</h5>
+                    <a href="https://www.linkedin.com/company/aisle8" target="_blank" class="text-light me-3"><i data-feather="linkedin"></i></a>
+                    <a href="https://twitter.com/aisle8" target="_blank" class="text-light"><i data-feather="twitter"></i></a>
+                </div> -->
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <small>&copy; 2025 Aisle8. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        // Check if mobile before loading Spline
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (!isMobile) {
+            const splineScript = document.createElement('script');
+            splineScript.type = 'module';
+            splineScript.src = 'https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js';
+            document.head.appendChild(splineScript);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html lang="None" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisle8 - AI & Sustainability Solutions</title>
+    <meta name="description" content="Aisle8 provides cutting-edge AI solutions for sustainable business transformation.">
+    <meta name="keywords" content="AI, Sustainability, Retail Solutions, Supply Chain Optimization, Aisle8">
+    <meta name="author" content="Aisle8">
+    <meta name="description" content="Aisle8 makes sustainability profitable with AI-powered supply chain solutions.">
+    <meta name="keywords" content="Aisle8, AI, sustainability, supply chain, retail, optimization, profitability">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="Aisle8-ICON.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="Aisle8-ICON.svg">
+    
+    <script src="feather.min.js"></script>
+    <script type="module" src="spline-viewer.js"></script>
+    <script src="chart.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script src="charts.js"></script>
+    <style>
+        /* Critical CSS */
+        .team-image img, .advisor-image img {
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+        
+        /* Prevent CLS */
+        .team-card, .advisor-card {
+            min-height: 400px;
+            contain: content;
+        }
+        
+        /* Optimize mobile performance */
+        @media (max-width: 768px) {
+            * {
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            img {
+                content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.htm">
+                    <img src="Aisle8-ICON.svg" alt="Aisle8 Logo">
+                    <span class="brand-text">Aisle8</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.htm">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="technology.html">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="impact.html">Impact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="language-selector dropdown">
+                        <button class="btn btn-link dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="feather feather-globe"></i>
+                            
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="index.htm">🇬🇧 English / English</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇪🇸 Spanish / Español</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇫🇷 French / Français</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇩🇪 German / Deutsch</a></li>
+                            <li><a class="dropdown-item" href="index.htm">🇨🇳 Chinese / 中文</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+            
+        
+
+        
+
+<body class="home-page">
+
+    <!-- Hero Section -->
+    <section class="hero-section home-hero-section">
+        <!-- Restructured spline background similar to "What We Do" section -->
+        <div class="spline-background">
+            <spline-viewer id="hero-spline" loading-anim-type="spinner-small-light" url="https://prod.spline.design/3YvMm6VYwUzhl-ZQ/scene.splinecode" background="black" class="spline-viewer" data-mobile-fallback="/static/images/hero-fallback.jpg">
+            </spline-viewer>
+            <div class="scroll-indicator">
+                <a href="#problem-statement" class="scroll-down" onclick="document.getElementById('problem-statement').scrollIntoView({behavior: 'smooth'});">
+                    <i data-feather="chevron-down" class="scroll-icon"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Content box with logo -->
+        <div class="hero-content">
+            <div class="container">
+                <div class="content-box fade-in">
+                    <!-- Separate header section -->
+                    <header class="content-header">
+                        <div class="company-branding">
+                            <img src="Aisle8-ICON.svg" alt="Aisle8 Icon" class="company-logo">
+                            <h2 class="company-name">Aisle8</h2>
+                        </div>
+                    </header>
+                    
+                    <!-- Main content section -->
+                    <div class="content-main">
+                        <h1 class="display-4 mb-4 fade-in">Aisle8 - Solana-integrated artificial intelligence</h1>
+                        <p class="lead dynamic-text">
+                            ca: paste_ca
+                        </p>
+                        <div class="button-group">
+                            <a href="https://pump.fun/board" class="btn btn-primary">Invest Now</a>
+                            <a href="https://x.com/Aisle8AI" class="btn btn-outline">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section class="home-section problem-statement" id="problem-statement">
+        <div class="container">
+            <h2 class="text-center mb-5 fade-in">The Challenge We Face</h2>
+            <div class="row align-items-center g-4">
+                <!-- Chart 1: Industry vs. Individual CO₂ Emissions -->
+                <div class="col-md-6 fade-in">
+                    <div class="chart-container">
+                        <h4 class="chart-title">Industries and sectors are the main contributors to global CO₂ emissions</h4>
+                        <canvas id="chartIndustryVsIndividual"></canvas>
+                    </div>
+                </div>
+                <!-- Chart 2: Detailed Breakdown -->
+                <div class="col-md-6 fade-in">
+                    <div class="chart-container">
+                        <h4 class="chart-title">Breakdown of emissions by industrial sector</h4>
+                        <canvas id="chartIndustryBreakdown"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 fade-in">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead text-center">
+                        These charts demonstrate the significant impact of industrial sectors on global emissions, highlighting the need for targeted solutions.
+                    </p>
+                    <p class="text-muted text-center">
+                        <em>Data Sources: IPCC, EPA, Vox</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="home-section mission-statement">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mission-title">Our Mission</h2>
+                    <p class="mission-tagline">
+                        We transform traditional supply chains into efficient, eco-friendly systems using advanced AI and data analytics.
+                    </p>
+                    <div class="mission-content">
+                        By aligning sustainability with profitability, we empower businesses to embrace eco-friendly practices that drive both environmental impact and economic growth.
+                    </div>
+                    <a href="about.html" class="btn btn-mission">
+                        Learn More About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="home-section what-we-do">
+        <!-- Second Spline viewer -->
+        <div class="spline-background">
+            <spline-viewer id="what-we-do-spline" url="https://prod.spline.design/EP7KyhvDXrNOoFbz/scene.splinecode" data-mobile-fallback="/static/images/whatwedo-fallback.jpg">
+            </spline-viewer>
+        </div>
+        
+        <div class="container position-relative">
+            <h2 class="text-center mb-5 fade-in">What We Do</h2>
+            
+            <div class="row g-4">
+                <!-- Predictive Analytics -->
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <i data-feather="trending-up"></i>
+                        </div>
+                        <h3>Predictive Analytics</h3>
+                        <p>Forecast demand, optimize pricing, and manage inventory with ML-powered insights.</p>
+                    </div>
+                </div>
+
+                <!-- Clustering -->
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <i data-feather="grid"></i>
+                        </div>
+                        <h3>Clustering</h3>
+                        <p>Segment customers and markets to identify actionable patterns.</p>
+                    </div>
+                </div>
+
+                <!-- Custom AI -->
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <i data-feather="cpu"></i>
+                        </div>
+                        <h3>Custom AI</h3>
+                        <p>Tailored AI solutions designed for your specific business needs.</p>
+                    </div>
+                </div>
+
+                <!-- Generative AI -->
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <i data-feather="layers"></i>
+                        </div>
+                        <h3>Generative AI</h3>
+                        <p>Leverage advanced AI for automation and decision support.</p>
+                    </div>
+                </div>
+
+                <!-- Optimization -->
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <i data-feather="target"></i>
+                        </div>
+                        <h3>Optimization</h3>
+                        <p>Maximize efficiency across your entire operation.</p>
+                    </div>
+                </div>
+
+                <!-- Sustainability -->
+                <div class="col-lg-4 col-md-6 fade-in visible">
+                    <div class="home-capability-card">
+                        <div class="icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-leaf"><path d="M11 3L21 12L11 21L3 14L11 3Z"></path></svg>
+                        </div>
+                        <h3>Sustainability</h3>
+                        <p>Drive profitability through sustainable business practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Aisle8 Section -->
+    <section class="home-section why-choose-us">
+        <div class="container">
+            <h2 class="text-center mb-5 fade-in">Why Choose Aisle8?</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4 fade-in">
+                    <div class="home-feature-card text-center">
+                        <i data-feather="bar-chart-2" class="icon-size text-primary mb-3"></i>
+                        <h3 class="h5">Data-Driven Insights</h3>
+                        <p>Advanced analytics to optimize your operations</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 fade-in">
+                    <div class="home-feature-card text-center">
+                        <i data-feather="shield" class="icon-size text-primary mb-3"></i>
+                        <h3 class="h5">Sustainable Solutions</h3>
+                        <p>Eco-friendly strategies that boost profitability</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 fade-in">
+                    <div class="home-feature-card text-center">
+                        <i data-feather="trending-up" class="icon-size text-primary mb-3"></i>
+                        <h3 class="h5">Measurable Impact</h3>
+                        <p>Track and improve your sustainability metrics</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center mt-5 pt-4">  <!-- Added margin and padding top for spacing -->
+                <a href="contact.html" class="btn btn-primary btn-lg">
+                    Contact Us Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Aisle8</h5>
+                    <p>Transforming businesses through AI and sustainability solutions.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="solutions.html" class="text-light">Solutions</a></li>
+                        <li><a href="technology.html" class="text-light">Technology</a></li>
+                        <li><a href="about.html" class="text-light">About Us</a></li>
+                        <li><a href="contact.html" class="text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-4">
+                    <h5>Connect with Us</h5>
+                    <a href="https://www.linkedin.com/company/aisle8" target="_blank" class="text-light me-3"><i data-feather="linkedin"></i></a>
+                    <a href="https://twitter.com/aisle8" target="_blank" class="text-light"><i data-feather="twitter"></i></a>
+                </div> -->
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <small>&copy; 2025 Aisle8. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        // Check if mobile before loading Spline
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (!isMobile) {
+            const splineScript = document.createElement('script');
+            splineScript.type = 'module';
+            splineScript.src = 'https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js';
+            document.head.appendChild(splineScript);
+        }
+    </script>
+</body>
+</html>
